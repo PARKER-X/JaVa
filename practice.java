@@ -50,5 +50,7 @@ public class practice{
         System.out.println(name3);
         System.out.println(name3.substring(0,5));
 
+        // Array
+        
     }
 }
