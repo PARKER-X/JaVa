@@ -11,5 +11,9 @@ public class casting {
         // int final_price = 10+1.8;
         int final_price = 10 + (int)1.8;
         System.out.println(final_price);
+
+        // Final Keyword for constant so there value can't change
+        final Float pi = 3.14F;
+        System.out.println(pi);
     }
 }
