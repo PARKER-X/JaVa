@@ -5,7 +5,7 @@ public class showroom implements utility{
     String showroom_name;
     String showroom_address;
     String showroom_manager;
-    int stock_number;
+    int stock_number= 0;
     String total_employees;
 
     // Functions
