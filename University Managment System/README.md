@@ -20,7 +20,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Project Details
 
-### Student Management System
+## Student Management System
 
 Class: Student
 
@@ -30,7 +30,7 @@ Features:
     Enroll students in courses.
     View and update student information.
 
-Course Management:
+### Course Management:
 
 Class: Course
 
@@ -40,7 +40,7 @@ Features:
     Manage course prerequisites.
     View and update course information.
 
-Faculty Management:
+### Faculty Management:
 
 Class: Faculty
 
@@ -50,7 +50,7 @@ Features:
     Assign faculty to teach specific courses.
     View and update faculty information.
 
-Enrollment System:
+### Enrollment System:
 
 Class: Enrollment
 
@@ -59,7 +59,7 @@ Features:
     Check for course prerequisites before enrollment.
     View and manage student course registrations.
 
-Grading System:
+### Grading System:
 
 Class: Grade
 Features:
@@ -67,4 +67,3 @@ Features:
     Generate transcripts.
     Provide a mechanism for instructors to submit grades.
 
-    
