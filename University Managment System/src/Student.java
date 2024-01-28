@@ -6,7 +6,7 @@ public class Student implements utility {
     int studentAge;
     int studentRollno;
     long studentPhoneNumber;
-    Static UniversityName = "Parker Institute of technology";
+    static String UniversityName = "Parker Institute of technology";
 
 
     // Functions

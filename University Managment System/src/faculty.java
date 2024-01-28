@@ -1,10 +1,12 @@
-public class faculty implements utility {
+import java.util.Scanner;
+
+public class Faculty implements utility {
     String facultyMemberName;
     String facultyMemberCourse;
-    Int facultyMemberAge;
+    int facultyMemberAge;
     long facultyMemberPhoneNumber;
-    Int facultyMemberId;
-    Static UniversityName = "Parker Institute of technology";
+    int facultyMemberId;
+    static String UniversityName = "Parker Institute of technology";
 
     @Override
     public void getDetails(){

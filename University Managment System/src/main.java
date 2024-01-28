@@ -1,11 +1,13 @@
+import java.util.*;
+import java.lang.*;
+
 interface utility{
     // Functions
     public void setDetails();
     public void getDetails();
 }
 
-
-public class main {
+public class Main {
       static void main_menu(){
         System.out.println();
         System.out.println("======================= *** WELCOME TO UNIVERSITY MANAGEMENT SYSTEM *** =======================");
@@ -21,5 +23,13 @@ public class main {
     }
 
     public static void main(String[] args) {
+        System.out.println("Hello World!");
         main_menu();
+        Student student[] = new Student[5];
+        int student_counter=0;
+        student[student_counter] = new Student();
+        student[student_counter].setDetails();
+       
     }}
+
+
