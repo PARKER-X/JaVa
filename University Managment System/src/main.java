@@ -1,5 +1,7 @@
 import java.util.*;
 import java.lang.*;
+import java.util.Scanner;
+
 
 interface utility{
     // Functions
@@ -24,9 +26,21 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+//        Main_menu
         main_menu();
+//        Student
         Student student[] = new Student[5];
         int student_counter=0;
+
+//        Choice
+        Scanner sc = new Scanner(System.in);
+        int choice = Integer.parseInt(sc.nextLine());
+        System.out.println(choice);
+
+        while (choice!=0){
+
+        }
+
         student[student_counter] = new Student();
         student[student_counter].setDetails();
        
