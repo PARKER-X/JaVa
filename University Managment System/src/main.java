@@ -26,23 +26,57 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-//        Main_menu
-        main_menu();
+
 //        Student
         Student student[] = new Student[5];
         int student_counter=0;
 
+//        Faculty
+        Faculty faculty[] = new Faculty[5];
+        int faculty_counter=0;
+
 //        Choice
         Scanner sc = new Scanner(System.in);
-        int choice = Integer.parseInt(sc.nextLine());
+        int choice = 100; // By default intialize with 100
         System.out.println(choice);
 
+
         while (choice!=0){
+            main_menu();
+            choice = Integer.parseInt(sc.nextLine());
+
+            while (choice!=9 && choice!=0){
+//                Switch
+                switch (choice){
+                    case 1:
+                    student[student_counter] = new Student();
+                    student[student_counter].setDetails();
+                    student_counter++;
+                    System.out.println();
+                    System.out.println();
+                    System.out.println("1].ADD NEW STUDENT: ");
+                    System.out.println("9].GO BACK TO MAIN MENU");
+                    choice = Integer.parseInt(sc.nextLine());
+                    break;
+
+                    case 2:
+                        faculty[faculty_counter] = new Faculty();
+                        faculty[faculty_counter].setDetails();
+                        faculty_counter++;
+                        System.out.println();
+                        System.out.println();
+                        System.out.println("2].ADD New Faculty: ");
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        choice = Integer.parseInt(sc.nextLine());
+                        break;
+                }
+
+
+            }
 
         }
 
-        student[student_counter] = new Student();
-        student[student_counter].setDetails();
+
        
     }}
 

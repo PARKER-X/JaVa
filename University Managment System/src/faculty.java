@@ -29,9 +29,9 @@ public class Faculty implements utility {
         facultyMemberCourse = sc.nextLine();
         System.out.println("Faculty Age: ");
         facultyMemberAge = sc.nextInt();
-        System.out.println("Student Id: ");
+        System.out.println("Faculty Id: ");
         facultyMemberId = sc.nextInt();
-        System.out.println("Student Phone Number: ");
+        System.out.println("Faculty Phone Number: ");
         facultyMemberPhoneNumber = sc.nextLong();
     }
 }
