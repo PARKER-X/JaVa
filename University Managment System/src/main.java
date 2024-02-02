@@ -81,6 +81,19 @@ class Main{
                         System.out.println("0].EXIT");
                         choice = Integer.parseInt(sc.nextLine());
                         break;
+
+                    case 5:
+                        for (int i=0; i<faculty_counter;i++){
+                            faculty[i].getDetails();
+                            System.out.println();
+                            System.out.println();
+                        }
+                        System.out.println();
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        System.out.println("0].EXIT");
+                        choice = Integer.parseInt(sc.nextLine());
+                        break;
+
                 }
 
             }
