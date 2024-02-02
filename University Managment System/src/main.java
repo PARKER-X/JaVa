@@ -9,7 +9,7 @@ interface utility{
     public void getDetails();
 }
 
-public class Main {
+class Main{
       static void main_menu(){
         System.out.println();
         System.out.println("======================= *** WELCOME TO UNIVERSITY MANAGEMENT SYSTEM *** =======================");
@@ -67,6 +67,18 @@ public class Main {
                         System.out.println();
                         System.out.println("2].ADD New Faculty: ");
                         System.out.println("9].GO BACK TO MAIN MENU");
+                        choice = Integer.parseInt(sc.nextLine());
+                        break;
+
+                    case 4:
+                        for (int i=0; i<student_counter;i++){
+                            student[i].getDetails();
+                            System.out.println();
+                            System.out.println();
+                        }
+                        System.out.println();
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        System.out.println("0].EXIT");
                         choice = Integer.parseInt(sc.nextLine());
                         break;
                 }
