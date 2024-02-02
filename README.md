@@ -2,7 +2,7 @@
 Resources I follow: https://java-programming.mooc.fi/
 #
 ## Projects
-Project1: <a href="https://github.com/prabhatthakuryt/Car-Showroom-Management-System/">
+Project1: <a href="https://github.com/PARKER-X/JaVa/tree/main/Car%20Showroom%20Managment">
   University Management System
 </a>
 #####
