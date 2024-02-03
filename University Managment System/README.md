@@ -67,3 +67,6 @@ Features:
     Generate transcripts.
     Provide a mechanism for instructors to submit grades.
 
+#DEMO
+![Screenshot (494)](https://github.com/PARKER-X/JaVa/assets/74282916/0e484431-1c39-41bf-b7e2-46fbb1bf8253)
+
