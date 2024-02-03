@@ -35,6 +35,10 @@ class Main{
         Faculty faculty[] = new Faculty[5];
         int faculty_counter=0;
 
+//        Course
+        Course course[] = new Course[2];
+        int course_counter=0;
+
 //        Choice
         Scanner sc = new Scanner(System.in);
         int choice = 100; // By default intialize with 100
@@ -70,6 +74,18 @@ class Main{
                         choice = Integer.parseInt(sc.nextLine());
                         break;
 
+                    case 3:
+                        course[course_counter] = new Course();
+                        course[course_counter].setDetails();
+                        course_counter++;
+                        System.out.println();
+                        System.out.println();
+                        System.out.println("3].ADD New Course: ");
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        choice = Integer.parseInt(sc.nextLine());
+                        break;
+
+
                     case 4:
                         for (int i=0; i<student_counter;i++){
                             student[i].getDetails();
@@ -93,6 +109,19 @@ class Main{
                         System.out.println("0].EXIT");
                         choice = Integer.parseInt(sc.nextLine());
                         break;
+
+                    case 6:
+                        for (int i=0;i<course_counter;i++){
+                        course[i].getDetails();
+                        System.out.println();
+                            System.out.println();
+                    }
+                        System.out.println();
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        System.out.println("0].EXIT");
+                        choice = Integer.parseInt(sc.nextLine());
+                        break;
+
 
                 }
             }

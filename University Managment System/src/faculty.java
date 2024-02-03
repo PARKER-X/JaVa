@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Faculty implements utility {
+class Faculty implements utility {
     String facultyMemberName;
     String facultyMemberCourse;
     int facultyMemberAge;
