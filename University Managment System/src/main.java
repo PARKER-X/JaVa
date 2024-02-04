@@ -1,7 +1,8 @@
 import java.util.*;
 import java.lang.*;
 import java.util.Scanner;
-
+import java.util.ArrayList;
+import java.util.Collections;
 
 interface utility{
     // Functions
@@ -28,16 +29,18 @@ class Main{
         System.out.println("Hello World!");
 
 //        Student
-        Student student[] = new Student[5];
+        int size =10;
+        Student student[] = new Student[size];
         int student_counter=0;
 
 //        Faculty
-        Faculty faculty[] = new Faculty[5];
+        Faculty faculty[] = new Faculty[size];
         int faculty_counter=0;
 
 //        Course
-        Course course[] = new Course[2];
         int course_counter=0;
+        Course course[] = new Course[size];
+        ArrayList<String> courses = new ArrayList<String>();
 
 //        Choice
         Scanner sc = new Scanner(System.in);
@@ -76,7 +79,9 @@ class Main{
 
                     case 3:
                         course[course_counter] = new Course();
+//                        course.add(newCourse);
                         course[course_counter].setDetails();
+//                        courses.add(course[course_counter]);
                         course_counter++;
                         System.out.println();
                         System.out.println();
